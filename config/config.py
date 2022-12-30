@@ -168,11 +168,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL","https://telegra.ph/file/84b151fdb165449b7792b.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://telegra.ph/file/e348280dad4abcc234287.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -182,12 +182,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://telegra.ph/file/8c06a2116f3fe576b3e43.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://telegra.ph/file/b229c7855b1af3d4c9130.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
